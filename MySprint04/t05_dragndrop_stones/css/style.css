@@ -1,0 +1,56 @@
+body {
+  position: relative;
+}
+
+.stone {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  display: block;
+  cursor: pointer;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.stone-1 {
+  left: 400px;
+  top: 150px;
+  background: rgb(255, 230, 0);
+}
+
+.stone-2 {
+  left: 270px;
+  top: 270px;
+  background: rgb(19, 212, 19);
+}
+
+.stone-3 {
+  left: 530px;
+  top: 270px;
+  background: rgb(35, 35, 175);
+}
+
+.stone-4 {
+  left: 400px;
+  top: 380px;
+  background: #6559b3;
+}
+
+.stone-5 {
+  left: 270px;
+  top: 500px;
+  background: #b1163dd3;
+}
+
+.stone-6 {
+  left: 530px;
+  top: 500px;
+  background: #dd0e42;
+}
+
+.active {
+  border: 4px dashed black;
+}

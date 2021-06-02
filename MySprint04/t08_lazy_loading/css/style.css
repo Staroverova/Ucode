@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-img{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 600px;
+    height: 400px;
+    display: block;
+}
+.counter{
+    width: 200px;
+    height: 25px;
+    background-color: rgb(209, 7, 67);
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.first-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.counter-full-load{
+    background-color: chartreuse;
+}
+.hide{
+    display: none;
+}

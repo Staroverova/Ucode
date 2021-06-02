@@ -1,0 +1,34 @@
+body {
+    position: relative;
+}
+
+table {
+    border: 4px solid #000000;
+    margin: 0 auto;
+}
+
+tr:nth-child(1n) {
+    background: rgb(180, 180, 180);
+}
+
+tr:nth-child(1) {
+    background: red;
+    cursor: pointer;
+}
+
+td {
+    text-align: center;
+    width: 100px;
+    height: 65px;
+}
+
+#notification {
+    background: rgb(150, 150, 150);
+    border-radius: 40px;
+    text-align: center;
+    width: 250px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

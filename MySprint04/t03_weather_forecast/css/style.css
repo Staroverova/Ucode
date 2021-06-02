@@ -1,0 +1,27 @@
+img{
+    height: 100px;
+  }
+  .city{
+    text-align: center;
+    background: hsl(290, 75%, 11%);
+    font-size: 20px;
+  }
+  .wrapper{
+    background-color: #a7209bee;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    opacity: 0.8;
+    text-align: center;
+  }
+  .content{
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  .content:hover{
+    box-shadow:0 0 10px aqua;
+  }
+  .data{
+    background-color: rgb(33, 28, 99);
+  }

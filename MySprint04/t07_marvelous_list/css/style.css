@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+  }
+  .all-button{
+    margin: 5px;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+  }
+  .box-movie{
+    background-color: lightgray;
+    display: flex;
+    width: 1190px;
+  }
+  .info-img-container{
+    display: flex;
+  }
+  .box-movie-list{
+    width: 350px;
+  }
+  .box-movie-list div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+   
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .box-movie-info{
+    width: 500px;
+  } 
+  .info-container .wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+  }
+  .info-container h2,
+  .info-container p{
+    margin-left: 25px;
+  }
+  .box-text{
+    width: 450px;
+  }
+  .box-main-actors{
+    display: flex;
+    margin-left: 30px;
+  }
+  .box-main-actors div{
+    width: 75px;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .box-img{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img{
+    width: 200px;
+    position: sticky;
+  }
+  .show{
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 25px;
+  }

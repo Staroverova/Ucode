@@ -1,0 +1,52 @@
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+}
+.box2{
+    width: 500px;
+    height: 220px;
+    padding: 15px;
+    background-color: rgb(211, 214, 218);
+    border-radius: 5px;
+}
+.box3{
+    width: 500px;
+    height: 160x;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(211, 214, 218);
+}
+.notes-area{
+    width: 450px;
+    height: 100px;
+    background-color: white;
+    border-radius: 2.5px;
+}
+button{
+    height: 25px;
+    padding: 25px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+}
+button:first-child{
+    /* background-color: aquamarine; */
+    background: rgba(7, 224, 224, 0.514);
+}
+button:first-child:hover{
+    /* background: #f24437 linear-gradient(to bottom, #f24437 5%, #c62d1f 100%); */
+    background: aquamarine linear-gradient(to bottom, #029999 5%, aquamarine 100%);
+}
+textarea{
+    border-radius: 5px;
+    border-color:  rgb(5, 137, 146);
+}
