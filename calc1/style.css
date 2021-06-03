@@ -1,0 +1,82 @@
+/*common styles*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 124, 235);
+    font-family: sans-serif;
+}
+/*common style ends*/
+
+/*calculator*/
+.calculator{
+    width:300px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    background-color: rgb(13, 8, 99);
+    box-shadow: 5px 8px -2px rgba(255, 255, 255, 0.61);
+
+}
+/*calculator style ends*/
+
+/*display*/
+
+.display{
+    width: 100%;
+    height: 80px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 2em;
+    background-image: linear-gradient(to top right, rgb(101, 115, 255), rgb(111, 114, 247), rgb(120, 114, 239), rgb(130, 113, 231), rgb(139, 112, 223), rgb(149, 111, 215), rgb(158, 111, 208), rgb(168, 110, 200), rgb(177, 109, 192), rgb(187, 108, 184), rgb(196, 108, 176), rgb(206, 107, 168));
+    color: rgb(255, 249, 249);
+    text-align: right;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+/*display style ends*/
+
+/*row*/
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+/*row style ends*/
+
+/*button*/
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    background-color: rgb(207, 186, 247);
+    margin: 10px;
+    color: rgb(17, 13, 53);
+    margin: 10px;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/*button style ends*/
+
+/*operator*/
+.operator{
+    background-image: linear-gradient(to top right, rgb(101, 115, 255), rgb(111, 114, 247), rgb(120, 114, 239), rgb(130, 113, 231), rgb(139, 112, 223), rgb(149, 111, 215), rgb(158, 111, 208), rgb(168, 110, 200), rgb(177, 109, 192), rgb(187, 108, 184), rgb(196, 108, 176), rgb(206, 107, 168));
+    color: rgb(255, 255, 255);
+}
+
+/*operator style ends*/
